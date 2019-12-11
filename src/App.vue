@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Login></Login>
+    <Login/>
   </div>
 </template>
 
@@ -17,13 +17,14 @@ export default {
   #app {
     width: 100%;
     height: 100%;
-    background: url('./assets/Pozadina.jpg') no-repeat center fixed;
+    position: fixed;
+    /* background: url('./assets/Pozadina.jpg') no-repeat center fixed;
     background-size: cover;
     background-position: center center;
     position: fixed;
     top: 0;
     bottom: 0;
     z-index: -10;
-    margin: 0;
+    margin: 0; */
   }
 </style>
