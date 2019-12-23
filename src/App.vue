@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Login></Login>
-    <!-- <Register/> -->
+    <!-- <Login></Login> -->
+    <Register/>
   </div>
 </template>
 
 <script>
-/* import Register from './components/Register' */
-import Login from './components/Login'
+import Register from './components/Register'
+/* import Login from './components/Login' */
 export default {
   components: {
-    Login
-    /* Register */
+    /* Login */
+    Register
   }
 }
 </script>
